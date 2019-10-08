@@ -15,7 +15,7 @@ let isTransferring = false;
 let resultImg;
 
 function setup() {
-  createCanvas(320, 240).parent('canvasContainer');
+  createCanvas(850, 640).parent('canvasContainer');
 
   video = createCapture(VIDEO);
   video.hide();
